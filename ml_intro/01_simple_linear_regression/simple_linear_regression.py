@@ -64,4 +64,8 @@ if __name__ == "__main__":
     simple_lineal_regression = SimpleLinearRegression()
     simple_lineal_regression.compare_var_against_emission(FuelVars.CLASS)
     simple_lineal_regression.compare_var_against_emission(FuelVars.COMB)
+    simple_lineal_regression.compare_var_against_emission(FuelVars.CITY)
+    simple_lineal_regression.compare_var_against_emission(FuelVars.YEAR)
+    simple_lineal_regression.compare_var_against_emission(FuelVars.FUEL_TYPE)
+    simple_lineal_regression.compare_var_against_emission(FuelVars.CYLINDERS)
 
